@@ -2,13 +2,17 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Sidebar } from './Components/Sidebar';
 import { AllRoutes } from './Components/AllRoutes';
+import { Topbar } from './Components/Topbar';
 
 function App() {
   return (
-    <div className="d-flex">
-      <Sidebar />
-      <AllRoutes />
-    </div>
+    <>
+      <Topbar />
+      <div className="d-flex">
+        <Sidebar />
+        <AllRoutes />
+      </div>
+    </>
   );
 }
 
