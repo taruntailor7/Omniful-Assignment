@@ -1,16 +1,24 @@
 .topbar{
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 2px solid #EEF0FF;
 }
 .bar{
     margin-left: 300px;
 }
 .quickLink{
-    width: 100px;
+    width: 150px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 20px;
+}
+.lang{
+    width: 170px;
+    align-items: center;    
+}
+.lang>img{
+    width: 30px;
+    height: 30px;
 }
