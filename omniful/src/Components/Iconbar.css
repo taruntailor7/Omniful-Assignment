@@ -1,0 +1,15 @@
+.iconbar{
+    border-right:2px solid #EEF0FF;
+    /* height:655px; */
+    align-items: center;
+}
+.logout{
+    border-top:2px solid #EEF0FF;
+    border-right:2px solid #EEF0FF;
+    height:185px;
+    align-items: center;
+}
+.logo{
+    width:40px;
+    height: 40px;
+}
